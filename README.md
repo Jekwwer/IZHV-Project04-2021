@@ -5,6 +5,8 @@ Solution for the 4th assignment from the subject _'IZHV (Introduction to Game De
 
 ## Task: Materials and Effects
 
+[Full Assignment Description](http://cphoto.fit.vutbr.cz/ludo/courses/izhv/exercises/e4/)
+
 **1. Setup:**
 
 - Download the project template from the Materials section.
