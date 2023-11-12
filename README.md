@@ -1,61 +1,32 @@
-# IZHV-Exercise04-2021
+# **IZHV-Project04-2021:** Materials and Effects
 
-Solution for the 4th assignment from the course _'[IZHV (Introduction to Game Development)](https://www.fit.vut.cz/study/course/250838/)'_ for the academic year 2021/22 at VUT FIT. \
-Řešení 4. úkolu z předmětu _'[IZHV (Základy herního vývoje)](https://www.fit.vut.cz/study/course/250838/.cs)'_ pro akademický rok 2021/22 na VUT FIT.
+> 🎓 **University**: [VUT FIT](https://www.fit.vut.cz/)
+>
+> 📚 **Course**: [Introduction to Game Development (IZHV)](https://www.fit.vut.cz/study/course/250838/)
+>
+> 📅 **Academic Year**: 2021/22
 
-## Task: Materials and Effects
 
-[Full Assignment Description](http://cphoto.fit.vutbr.cz/ludo/courses/izhv/exercises/e4/)
 
-**1. Setup:**
+This project focuses on the application of Unity's graphical features to refine a pre-built kitchen scene. The goal is to familiarize oneself with the Unity environment by manipulating materials and shaders to achieve a more lifelike and customized setting.
 
-- Download the project template from the Materials section.
-- Ensure Blender is installed for .blend file compatibility.
-- Open the project in Unity in 3D editor mode and run it to check the default kitchen scene.
+For the nitty-gritty on the assignment requirements and what’s expected, check out the [Full Assignment Description](http://cphoto.fit.vutbr.cz/ludo/courses/izhv/exercises/e4/).
 
-**2. Using Unity Materials:**
+### 🎨 1. Unity Materials:
 
-- **Broken Sink:**
-  - Locate the sink in the scene.
-  - Navigate to `Assets/Materials/Kitchen`.
-  - Create a new material named "Sink".
-  - Configure the shader to "Universal Render Pipeline/Lit".
-  - Adjust material parameters to resemble steel.
-  - Apply the "Sink" material to the sink in the scene.
+Locate the sink, create and apply a new "Sink" material with steel appearance from the kitchen assets.
 
-**3. Shader Graph and Procedural Wood:**
+### 🌲2. Shader Graph Textures:
 
-- **Boring Table Fix:**
-  - Navigate to `Assets -> Shaders -> Kitchen`.
-  - Create a new Shader Graph named "SimpleWoodSG".
-  - Open the Shader Graph editor.
-  - Add a color property named "BaseColor" with a brown default value.
-  - Connect the "BaseColor" property to the Base Color input of the Fragment node.
-- **Table Wood Gradient Noise:**
-  - Add nodes for Gradient Noise and Multiply.
-  - Configure them as shown in your description.
-- **Custom Function Node for Wood Contour:**
-  - Add a Custom Function node.
-  - Configure inputs, outputs, and code as given in the description.
-  - Connect nodes to create a pattern reminiscent of wood grain.
-- **Complete the Wood Material:**
-  - Use the created Shader Graph to produce materials for the table top ("TableTop") and table legs ("TableLeg").
-  - Assign these materials to the appropriate elements of the table in the scene.
+In the shader kitchen assets, craft a "SimpleWoodSG" Shader Graph, link properties to simulate wood, and apply to the table.
 
-**4. Personalizing the Kitchen:**
+### 🍳3. Kitchen Customization:
 
-- Navigate to `Assets -> Materials -> Kitchen`.
-- Choose at least 3 materials.
-- For each selected material:
-  - Create a Shader Graph that represents its visual and physical properties.
-  - Experiment with different nodes and configurations in Shader Graph to achieve desired effects.
-- Apply the customized materials to the corresponding objects in the kitchen scene.
-- Be creative and explore different looks, textures, and effects.
+Select at least three kitchen materials, create unique Shader Graphs for each, and apply them to enhance the scene’s aesthetics.
 
-## Result
+## 📊 Evaluation Results
 
-TBD
+The project successfully fulfilled the requirements.
 
-## Evaluation
-
-Total points: **6/6**
+🟢🟢🟢🟢🟢  
+**Total Points: 6/6**
